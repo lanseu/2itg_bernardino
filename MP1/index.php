@@ -89,11 +89,11 @@
                 
                 //Displaying the Ouput
                 echo "<p>Total Annual Salary: </p> ";
-                echo '<span class="colored-text"> PHP ' . $annual_salary . '</span>' ;
+                echo '<span class="colored-text"> PHP ' . number_format($annual_salary, 2) . '</span>' ;
                 echo "<p>Estimated Annual Tax: </p> ";
-                echo '<span class="colored-text"> PHP ' . $tax . '</span>';
+                echo '<span class="colored-text"> PHP ' . number_format($tax, 2) . '</span>';
                 echo "<p>Estimated Monthly Tax: </p> ";
-                echo '<span class="colored-text"> PHP ' . $monthly_tax . '</span>';
+                echo '<span class="colored-text"> PHP ' . number_format($monthly_tax, 2) . '</span>';
                 }
                 }
                 ?>
